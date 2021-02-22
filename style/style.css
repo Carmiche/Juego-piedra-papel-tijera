@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", Sans-serif;
+}
+.contenedor{
+
+}
+.reglas{
+	background: #666;
+	padding: 13px 0;
+}
+.titulo-1{
+	background: #fa0;
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+	margin: 0;
+}
+.titulo-2{
+	background: #333;
+	color: #eee;
+	width: 30%;
+	min-width: 100px;
+	text-align: center;
+	margin: 0 10px 10px;
+	padding: 5px 0;
+	border: 2px dashed #666;
+	border-radius: 10px;
+}
+.parrafo{
+	padding: 0 20px;
+	color: #eee;
+	font-size: 1em;
+}
+.boton.comenzar{
+	background: #fa0;
+	color: #eee;
+	display: block;
+	width: 60%;
+	padding: 10px 0;
+	border: 2px dashed #666;
+	margin: 1em  auto 0;
+	text-align: center;
+	font-size: 1.2em;
+	transition: background .5s, color .5s;
+}
+.boton.comenzar:hover{
+	background: #fff;
+	color: #fa0;
+}
+.contadores{
+	text-align: center;
+	background: #333;
+}
+.contadores div{
+	display: inline-block;
+	width: 32.3%;
+	min-width: 82px ;
+	padding: 10px 0;
+	color: #fff;
+	transition: background .5s, color .5s;
+}
+.juego{
+	position: relative;
+}
+.juego.false{
+	top: -150vh;
+	opacity: 0;
+	transition: top 1s, opacity 1.2s;
+}
+.juego.true{
+	top: 0;
+	opacity: 1;
+	transition: top 1s, opacity 1.2s;
+}
+.contador-positivo{
+	background: #0c3;
+	border: 2px dashed #0c3;
+}
+.contador-positivo:hover{
+	background: #fff;
+	color: #0c3;
+}
+.contador-empate{
+	background: #fa0;
+	border: 2px dashed #fa0;
+}
+.contador-empate:hover{
+	color: #fa0;
+	background: #fff;
+}
+.contador-negativo{
+	background: #f00;
+	border: 2px dashed #f00;
+}
+.contador-negativo:hover{
+	color: #f00;
+	background: #fff;
+}
+.seleccion-ul{
+	background: #666;
+	margin: 0 auto;
+	padding: 2em 0;
+	text-align: center;
+}
+.seleccion-ul li{
+	transition: background .5s, color .5s;
+	list-style-type: none;
+	display: inline-block;
+	width: 32.2%;
+	min-width: 100px ;
+	padding: 60px 0;
+	font-weight: bold;
+	border-radius: 100%;
+	border: 2px dashed #666;
+}
+.seleccion-ul li:hover{
+	background: #fff;
+	color: #333;
+}
+.seleccion-ul .cuarzo{
+	background-size: cover;
+	background-position: center;
+	background-image: url("https://c.pxhere.com/photos/9b/1a/rock_crystal_crystal_mineral_transparent_gem_healing_stone_minerals-709315.jpg!d");
+	background: #ddd;
+
+}
+.seleccion-ul .papiro{
+	background-size: cover;
+	background-position: center;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Registro_fondiario_in_papiro_a_forma_di_quaderno%2C_P._Flor._I_71%2C_da_hermopolis_magna%2C_IV_sec_dc..JPG/656px-Registro_fondiario_in_papiro_a_forma_di_quaderno%2C_P._Flor._I_71%2C_da_hermopolis_magna%2C_IV_sec_dc..JPG");
+	background: #fff;
+
+}
+.seleccion-ul .navaja{
+	background-size: cover;
+	background-position: center;
+	background-image: url("https://cdn.pixabay.com/photo/2014/11/03/06/09/knife-514802_960_720.jpg");
+	background: #ddd;
+
+}
